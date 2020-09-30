@@ -4,7 +4,7 @@
 const authConfig = {
 	"siteName": "XI11A Drive Index", // Website name
 	"client_id": "399248821650-o93s55lfik3d57s30l6099e3ke4d7jee.apps.googleusercontent.com",
-	"client_secret": "dMMbkh8brRc-ZV_japo85Tc2";
+	"client_secret": "dMMbkh8brRc-ZV_japo85Tc2",
 	"refresh_token": "", // Authorize token
 	/**
 	 * Set up multiple Drives to display; add multiples by format
