@@ -3,14 +3,14 @@ addEventListener('fetch', event => {
 });
 
 const tokenURL = 'https://www.googleapis.com/oauth2/v4/token';
-const clientId = '58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com';
-const clientSecret = 'ZNPZ-vS6N9Zjsyb_sNMZmXHL';
+const clientId = '399248821650-o93s55lfik3d57s30l6099e3ke4d7jee.apps.googleusercontent.com';
+const clientSecret = 'dMMbkh8brRc-ZV_japo85Tc2';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
-const jsURL = 'https://raw.githubusercontent.com/ParveenBhadooOfficial/Bhadoo-Drive-Index/master/worker/worker-beta.js';
+const jsURL = 'https://raw.githubusercontent.com/XI11A/Google-Drive-Index/master/worker/worker-beta.js';
 
 async function handleRequest(request) {
-    let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index';
+    let title = getParameterByName(request.url, 'site_name') || 'XI11A Drive Index';
     let auth_code = getParameterByName(request.url, 'auth_code');
     let root = getParameterByName(request.url, 'root') || 'root';
     let user = getParameterByName(request.url, 'user') || '';
